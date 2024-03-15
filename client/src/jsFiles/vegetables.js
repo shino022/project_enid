@@ -53,7 +53,7 @@ export const vegetables = [
         name: "Vegetable Home Style",
         price: 14.5,
         spice: true
-      }
+      },
       {
         name: "Sautéed Chinese Broccoli",
         price: 15.5,
