@@ -32,7 +32,6 @@ body {
     justify-content: space-around;
     height: 2rem;
     /* Height of the entire hamburger icon */
-
 }
 
 .hamburger.open {
@@ -54,7 +53,7 @@ body {
     font-weight: bold;
     /* Remove initial hiding if not needed */
     position: absolute;
-    top: calc(5rem + 0.5rem);
+    top: calc(5.5rem + 0.5rem);
     /* Height of navbar + padding */
     width: 100%;
     left: 0;
@@ -62,9 +61,11 @@ body {
     display: flex;
     justify-content: space-between;
     padding-left: 0.5rem;
+    opacity: 50%;
 }
 
 .menu_1{
+    margin-top: 0.5rem;
     margin-left: 0.5rem;
     display: flex;
     flex-direction: column;
