@@ -18,8 +18,8 @@ function Navbar() {
             </button>
             {isMenuOpen && (
                 <div className="menu">
-                    <a href="">CONTACT</a>
-                    <a href="">MENU</a>
+                        <a href="#footer_target">CONTACT</a>
+                        <a href="">MENU</a>
                 </div>
             )}
         </header>
