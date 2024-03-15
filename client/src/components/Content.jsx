@@ -1,33 +1,25 @@
 import '../styles/Content.css'
-import { menuItems } from '../jsFiles/menuData';
+import { chefSpecialities } from '../jsFiles/chefSpecialities';
 import { glutenFree } from '../jsFiles/glutenFree';
 import { appetizers } from '../jsFiles/appetizers';
+import { poultry } from '../jsFiles/poultry';
 import { beefAndLamb } from '../jsFiles/beefAndLamb';
 import { FriedRiceNoodlesChowMein } from '../jsFiles/FriedRiceNoodlesChowMein';
 import { seafood } from '../jsFiles/seafood';
 import { pork } from '../jsFiles/pork';
 import { vegetables } from '../jsFiles/vegetables';
 import { thaiSpecials } from '../jsFiles/thaiSpecials';
-import { soups } from '../jsFiles/soup';
+import { luncheonSpecial } from '../jsFiles/luncheonSpecial';
 
 function Content(){
     return(
         <div className="content">
-            <h2 className='menu_gluten'>Menu</h2>
+            <h3 className='chefSpecialities'>Chef Specialities</h3>
             <ul>
-                {menuItems.map((item) => (
+                {chefSpecialities.map((item) => (
                     <li key={item.name}>
-                        <h2>{item.name}</h2>
-                        <p>{item.ingredients}</p>
-                        <span>${item.price}</span>
-                    </li>
-                ))}
-            </ul>
-            <h3 className='soups'>Soups</h3>
-            <ul>
-                {soups.map((item) => (
-                    <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h3>{item.name}</h3>
+                        <p>{item.description}</p>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -36,17 +28,26 @@ function Content(){
             <ul>
                 {appetizers.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
                     </li>
                 ))}
             </ul>
-            <h3 className='menu_gluten_free'>Gluten Free</h3>
+            <h2 className='menu_gluten_free'>Gluten Free</h2>
             <ul>
                 {glutenFree.map((item) => (
                     <li key = {item.name}>
-                        <h4>{item.name}</h4>
+                        <h2>{item.name}</h2>
                         <p>Ingredients: {item.ingredients}</p>
+                        <span>${item.price}</span>
+                    </li>
+                ))}
+            </ul>
+            <h3 className="poultry">Poultry</h3>
+            <ul>
+                {poultry.map((item) => (
+                    <li key = {item.name}>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -55,7 +56,7 @@ function Content(){
             <ul>
                 {beefAndLamb.map((item) => (
                     <li key = {item.name}>
-                        <h4>{item.name}</h4>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -64,7 +65,7 @@ function Content(){
             <ul>
                 {seafood.map((item) => (
                     <li key = {item.name}>
-                        <h4>{item.name}</h4>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -73,7 +74,7 @@ function Content(){
             <ul>
                 {pork.map((item) => (
                     <li key = {item.name}>
-                        <h4>{item.name}</h4>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -82,7 +83,7 @@ function Content(){
             <ul>
                 {vegetables.map((item) => (
                     <li key = {item.name}>
-                        <h4>{item.name}</h4>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -91,7 +92,8 @@ function Content(){
             <ul>
                 {FriedRiceNoodlesChowMein.map((item) => (
                     <li key = {item.name}>
-                        <h4>{item.name}</h4>
+                        <h3>{item.name}</h3>
+                        <p> {item.choice} </p>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -100,8 +102,21 @@ function Content(){
             <ul>
                 {thaiSpecials.map((item) => (
                     <li key = {item.name}>
-                        <h4>{item.name}</h4>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
+                    </li>
+                ))}
+            </ul>
+            <h3 className="luncheon_special">Luncheon Special</h3>
+            <p> Served with choice of brown, white, or roast pork fried rice & choice of wonton, egg drop, or hot and sour soup OR 
+                an egg or spring roll. 
+                Avaliable Tuesdays - Saturdays 12:00 pm - 3:00 pm. (Sundays and Holidays Excluded.)
+            </p>
+            <h3>$12.50 Each</h3>
+            <ul>
+                {luncheonSpecial.map((item) => (
+                    <li key = {item.name}>
+                        <h3>{item.name}</h3>
                     </li>
                 ))}
             </ul>

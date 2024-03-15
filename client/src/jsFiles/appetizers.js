@@ -5,7 +5,7 @@ export const appetizers = [
         spice: false
     },
     {
-        name: "Vegetable Roll (1)",
+        name: "Spring Roll (1)",
         price: 2.5,
         spice: false
     },

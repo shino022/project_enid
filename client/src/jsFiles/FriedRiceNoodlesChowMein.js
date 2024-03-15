@@ -13,7 +13,7 @@ export const FriedRiceNoodlesChowMein = [
       },
       {
         name: "Chow Fun (Flat Rice Noodles)",
-        choice: "choice of pork, shrimp, beef, chicken, veg or assorted",
+        choice: "choice of pork, shrimp, beef, chicken, veg or assorted ",
         price: 14,
         spice: null
       },
@@ -36,7 +36,8 @@ export const FriedRiceNoodlesChowMein = [
         spice: null
       },
       {
-        name: "Angel Hair Rice Noodles w. Curry",
+        name: "Singapore Style Mei Fun w. Curry",
+        choice: 'angel hair rice noodles',
         price: 14.5,
         spice: true
       },
@@ -54,6 +55,7 @@ export const FriedRiceNoodlesChowMein = [
       },
       {
         name: "Seafood Udon Noodle",
+        choice: "w. shrimp, scallop, and squid",
         price: 17.5,
         spice: null
       }
