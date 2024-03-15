@@ -4,6 +4,12 @@ import '../styles/Navbar.css'
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+
+    const handleContactClick = () => {
+        document.getElementById('footer_target').scrollIntoView({ behavior: 'smooth' })
+    }
+
+
     return (
         <header className="navbar">
             <h1 className="logo">Sevenwoks</h1>
@@ -18,8 +24,8 @@ function Navbar() {
             </button>
             {isMenuOpen && (
                 <div className="menu">
-                        <a href="#footer_target">CONTACT</a>
-                        <a href="">MENU</a>
+                    <a href="#" onClick={handleContactClick}>CONTACT</a>
+                    <a href="">MENU</a>
                 </div>
             )}
         </header>
