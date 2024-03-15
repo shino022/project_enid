@@ -1,7 +1,7 @@
 export const menuItems = [
     {
-        name: "Cheese Pizza",
-        ingredients: "a, b, c",
+        name: "House Special Chicken",
+        ingredients: "tender chicken fried & sauteed in garlic sauce",
         price: 10.99
     },
     {

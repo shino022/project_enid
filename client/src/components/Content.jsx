@@ -2,6 +2,7 @@ import '../styles/Content.css'
 import { menuItems } from '../jsFiles/menuData';
 import { glutenFree } from '../jsFiles/glutenFree';
 import { appetizers } from '../jsFiles/appetizers';
+import { soups } from '../jsFiles/soup';
 
 
 
@@ -13,7 +14,16 @@ function Content(){
                 {menuItems.map((item) => (
                     <li key={item.name}>
                         <h2>{item.name}</h2>
-                        <p>Ingredients: {item.ingredients}</p>
+                        <p>{item.ingredients}</p>
+                        <span>${item.price}</span>
+                    </li>
+                ))}
+            </ul>
+            <h3 className='soups'>Soups</h3>
+            <ul>
+                {soups.map((item) => (
+                    <li key={item.name}>
+                        <h4>{item.name}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -22,7 +32,7 @@ function Content(){
             <ul>
                 {appetizers.map((item) => (
                     <li key={item.name}>
-                        <h3>{item.name}</h3>
+                        <h4>{item.name}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
