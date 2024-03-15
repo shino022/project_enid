@@ -18,13 +18,8 @@ function Navbar() {
             </button>
             {isMenuOpen && (
                 <div className="menu">
-                    <div className="menu_1">
-                        <a href="">CONTACT</a>
-                        <a href="">MENU</a>
-                    </div>
-                    <div className="menu_2">
-                        <p>Open: 10AM - 9PM</p>
-                    </div>
+                    <a href="">CONTACT</a>
+                    <a href="">MENU</a>
                 </div>
             )}
         </header>

@@ -59,11 +59,19 @@ body {
     left: 0;
     background-color: #333;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-left: 0.5rem;
     opacity: 50%;
-}
 
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    margin-right:30px;
+
+}
+/*
 .menu_1{
     margin-top: 0.5rem;
     margin-left: 0.5rem;
@@ -71,10 +79,7 @@ body {
     flex-direction: column;
 }
 
-.menu_1 a {
-    color: white;
-    text-decoration: none;
-}
+
 .menu_2{
     margin-right: 1.5rem;
-}
+}*/
