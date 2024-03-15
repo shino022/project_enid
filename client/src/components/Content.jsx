@@ -1,6 +1,9 @@
 import '../styles/Content.css'
 import { menuItems } from '../jsFiles/menuData';
 import { glutenFree } from '../jsFiles/glutenFree';
+import { appetizers } from '../jsFiles/appetizers';
+
+
 
 function Content(){
     return(
@@ -11,6 +14,15 @@ function Content(){
                     <li key={item.name}>
                         <h2>{item.name}</h2>
                         <p>Ingredients: {item.ingredients}</p>
+                        <span>${item.price}</span>
+                    </li>
+                ))}
+            </ul>
+            <h3 className='appetizers'>Appetizers</h3>
+            <ul>
+                {appetizers.map((item) => (
+                    <li key={item.name}>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
                     </li>
                 ))}
