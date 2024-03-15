@@ -9,6 +9,9 @@ function Navbar() {
         document.getElementById('footer_target').scrollIntoView({ behavior: 'smooth' })
     }
 
+    const handleMenuClick = () => {
+        document.getElementById('main_body').scrollIntoView({ behavior: 'smooth' });
+    }
 
     return (
         <header className="navbar">
@@ -25,7 +28,7 @@ function Navbar() {
             {isMenuOpen && (
                 <div className="menu">
                     <a href="#" onClick={handleContactClick}>CONTACT</a>
-                    <a href="">MENU</a>
+                    <a href="#" onClick={handleMenuClick}>MENU</a>
                 </div>
             )}
         </header>
