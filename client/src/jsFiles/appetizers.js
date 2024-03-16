@@ -2,7 +2,8 @@ export const appetizers = [
     {
         name: "Egg Roll (1)",
         price: 3,
-        spice: false
+        spice: false,
+        gluten: true
     },
     {
         name: "Spring Roll (1)",

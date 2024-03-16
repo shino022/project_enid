@@ -2,7 +2,8 @@ export const poultry = [
     {
         name: "Sliced Chicken w. Asparagus",
         price: 16,
-        spice: null
+        spice: null,
+        gluten: true
       },
       {
         name: "Sliced Chicken w. Garlic Sauce",
@@ -12,17 +13,20 @@ export const poultry = [
       {
         name: "Sliced Chicken w. Broccoli",
         price: 16,
-        spice: null
+        spice: null,
+        gluten: true
       },
       {
         name: "Chicken w. Snow Peas & Mushrooms",
         price: 16,
-        spice: null
+        spice: null,
+        gluten: true
       },
       {
         name: "Chicken w. Mixed Vegetables",
         price: 16,
-        spice: null
+        spice: null,
+        gluten: true
       },
       {
         name: "Moo Shu Chicken",
@@ -67,7 +71,8 @@ export const poultry = [
       {
         name: "Curry Chicken",
         price: 16,
-        spice: null
+        spice: null,
+        gluten: true
       },
       {
         name: "Crispy Orange Chicken",

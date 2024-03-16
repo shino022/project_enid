@@ -14,7 +14,7 @@ import { luncheonSpecial } from '../jsFiles/luncheonSpecial';
 function Content(){
     return(
         <div className="content">
-            <h3 className='chefSpecialities'>Chef Specialities</h3>
+            <h3 className='checfSpecialities'>Chef Specialities</h3>
             <ul>
                 {chefSpecialities.map((item) => (
                     <li key={item.name}>

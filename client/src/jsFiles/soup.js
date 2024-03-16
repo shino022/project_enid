@@ -2,7 +2,8 @@ export const soups = [
     {
         name: "Egg Drop Soup (sm)",
         price: 3.5,
-        spice: false
+        spice: false,
+        gluten: true
     },
     {
         name: "Wonton Soup (sm)",
