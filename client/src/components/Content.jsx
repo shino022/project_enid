@@ -23,6 +23,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <hr />
             <h3 className='appetizers'>Appetizers</h3>
             <ul>
                 {appetizers.map((item) => (
@@ -32,6 +33,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <hr />
             <h3 className="poultry">Poultry</h3>
             <ul>
                 {poultry.map((item) => (
@@ -41,6 +43,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <hr />
             <h3 className="beef_and_lamb">Beef and Lamb</h3>
             <ul>
                 {beefAndLamb.map((item) => (
@@ -50,6 +53,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <hr />
             <h3 className="seafood">Seafood</h3>
             <ul>
                 {seafood.map((item) => (
@@ -59,6 +63,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <hr />
             <h3 className="pork">Pork</h3>
             <ul>
                 {pork.map((item) => (
@@ -68,6 +73,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <hr />
             <h3 className="vegetables">Vegetables</h3>
             <ul>
                 {vegetables.map((item) => (
@@ -77,6 +83,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <hr />
             <h3 className="fried_rice_noodles_chow_mein">Fried Rice, Noodles, Chow Mein</h3>
             <ul>
                 {FriedRiceNoodlesChowMein.map((item) => (
@@ -86,6 +93,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <hr />
             <h3 className="thai_specials">Thai Specials</h3>
             <ul>
                 {thaiSpecials.map((item) => (
@@ -95,6 +103,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <hr />
             <h3 className="luncheon_special">Luncheon Special</h3>
             <ul>
                 {luncheonSpecial.map((item) => (
@@ -104,6 +113,7 @@ function Content() {
                     </li>
                 ))}
             </ul>
+            <p className='end_line'>* * * * * * * * * * * * *</p>
         </div>
     )
 }
