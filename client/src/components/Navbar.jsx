@@ -5,17 +5,19 @@ function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
-    const handleContactClick = () => {
+    const handleContactClick = (e) => {
+        e.preventDefault();
         document.getElementById('footer_target').scrollIntoView({ behavior: 'smooth' })
     }
 
-    const handleMenuClick = () => {
+    const handleMenuClick = (e) => {
+        e.preventDefault();
         document.getElementById('main_body').scrollIntoView({ behavior: 'smooth' });
     }
 
     return (
         <header className="navbar">
-            <h1 className="logo">Sevenwoks</h1>
+            <h1 className="logo">Seven Woks</h1>
             <button className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={(e) => {
                 console.log('Toggling menu:', isMenuOpen);
                 setIsMenuOpen(!isMenuOpen);
