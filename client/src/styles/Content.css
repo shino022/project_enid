@@ -1,3 +1,7 @@
 .content >*{
     font-family: 'YourFont', sans-serif;
 }
+
+.content{
+    margin-top: 5rem;
+}
