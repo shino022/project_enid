@@ -9,7 +9,7 @@ import { pork } from '../jsFiles/pork';
 import { vegetables } from '../jsFiles/vegetables';
 import { thaiSpecials } from '../jsFiles/thaiSpecials';
 import { luncheonSpecial } from '../jsFiles/luncheonSpecial';
-import spiceLogo from '../assets/icons/image.png';
+import spiceLogo from '../assets/icons/spice.png';
 import glutenFreeLogo from '../assets/icons/glutenfree_2.png';
 
 function Content(){
