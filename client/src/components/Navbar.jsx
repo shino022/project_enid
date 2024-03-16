@@ -7,12 +7,14 @@ function Navbar() {
 
     const handleContactClick = (e) => {
         e.preventDefault();
-        document.getElementById('footer_target').scrollIntoView({ behavior: 'smooth' })
+        document.getElementById('footer_target').scrollIntoView({ behavior: 'smooth' });
+        setIsMenuOpen(false);
     }
 
     const handleMenuClick = (e) => {
         e.preventDefault();
         document.getElementById('main_body').scrollIntoView({ behavior: 'smooth' });
+        setIsMenuOpen(false);
     }
 
     return (

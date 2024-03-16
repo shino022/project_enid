@@ -31,7 +31,7 @@ function Content(){
             <ul>
                 {appetizers.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -41,7 +41,7 @@ function Content(){
             <ul>
                 {poultry.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -51,7 +51,7 @@ function Content(){
             <ul>
                 {beefAndLamb.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -61,7 +61,7 @@ function Content(){
             <ul>
                 {seafood.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -71,7 +71,7 @@ function Content(){
             <ul>
                 {pork.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -81,7 +81,7 @@ function Content(){
             <ul>
                 {vegetables.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -91,7 +91,7 @@ function Content(){
             <ul>
                 {FriedRiceNoodlesChowMein.map((item) => (
                     <li key = {item.name}>
-                        <h4>{item.name}</h4>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -101,7 +101,7 @@ function Content(){
             <ul>
                 {thaiSpecials.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -116,7 +116,7 @@ function Content(){
             <ul>
                 {luncheonSpecial.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>    
                     </li>
                 ))}
             </ul>
