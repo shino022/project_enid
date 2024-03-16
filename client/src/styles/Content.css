@@ -79,3 +79,29 @@ hr {
 .end_line{
     text-align: center;
 }
+
+.spicy_logo{
+    height: 1rem;
+    width: 1rem;
+}
+
+.gluten_free_logo{
+    height: 1rem;
+    width: 1rem;
+}
+
+.luncheon_special_description{
+    color: #808000;
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+}
+.luncheon_special_price{
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-align: center;
+}
