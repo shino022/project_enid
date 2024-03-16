@@ -97,6 +97,8 @@ hr {
     font-style: italic;
     font-size: 1rem;
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .luncheon_special_price{
     font-family: "Cormorant Upright", serif;
