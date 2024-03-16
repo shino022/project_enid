@@ -15,7 +15,7 @@ function Navbar() {
 
     return (
         <header className="navbar">
-            <h1 className="logo">Sevenwoks</h1>
+            <h1 className="logo">Seven Woks</h1>
             <button className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={(e) => {
                 console.log('Toggling menu:', isMenuOpen);
                 setIsMenuOpen(!isMenuOpen);
