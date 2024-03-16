@@ -14,10 +14,10 @@ body {
 }
 
 .logo {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-size: 2rem;
-    /* Large font size for the logo */
-    font-family: 'YourFont', sans-serif;
-    /* Customize your font */
 }
 
 .hamburger {
@@ -64,13 +64,15 @@ body {
     opacity: 50%;
 
 }
+
 .menu a {
     color: white;
     text-decoration: none;
     flex-direction: column;
-    margin-right:30px;
+    margin-right: 30px;
 
 }
+
 /*
 .menu_1{
     margin-top: 0.5rem;
