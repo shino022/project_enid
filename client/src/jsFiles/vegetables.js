@@ -1,7 +1,7 @@
 export const vegetables = [
     {
         name: "Sautéed Asparagus",
-        price: 14.5,
+        price: 15.5,
         spice: null
       },
       {
@@ -22,17 +22,17 @@ export const vegetables = [
       {
         name: "Chinese Eggplant with Garlic Sauce",
         price: 14.5,
-        spice: null
+        spice: true
       },
       {
         name: "Broccoli with Garlic Sauce",
         price: 14.5,
-        spice: null
+        spice: true
       },
       {
-        name: "Bean Curd Szechuan Style",
+        name: "Mapo Tofu",
         price: 14.5,
-        spice: null
+        spice: true
       },
       {
         name: "Bean Curd with Mixed Vegetables",
@@ -50,8 +50,13 @@ export const vegetables = [
         spice: null
       },
       {
+        name: "Vegetable Home Style",
+        price: 14.5,
+        spice: true
+      },
+      {
         name: "Sautéed Chinese Broccoli",
-        price: 15,
+        price: 15.5,
         spice: null
       }
 ]

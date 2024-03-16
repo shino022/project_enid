@@ -10,15 +10,14 @@ import { vegetables } from '../jsFiles/vegetables';
 import { thaiSpecials } from '../jsFiles/thaiSpecials';
 import { luncheonSpecial } from '../jsFiles/luncheonSpecial';
 
-function Content() {
-    return (
-        <div className="menu_content" id='main_body'>
+function Content(){
+    return(
+        <div className="content" id='main_body'>
             <h3 className='chefSpecialities'>Chef Specialities</h3>
             <ul>
                 {chefSpecialities.map((item) => (
                     <li key={item.name}>
-                        <h4>{item.name}</h4>
-                        <p>{item.description}</p>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -87,8 +86,8 @@ function Content() {
             <h3 className="fried_rice_noodles_chow_mein">Fried Rice, Noodles, Chow Mein</h3>
             <ul>
                 {FriedRiceNoodlesChowMein.map((item) => (
-                    <li key={item.name}>
-                        <h4>{item.name}</h4>
+                    <li key = {item.name}>
+                        <h3>{item.name}</h3>
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -105,6 +104,11 @@ function Content() {
             </ul>
             <hr />
             <h3 className="luncheon_special">Luncheon Special</h3>
+            <p> Served with choice of brown, white, or roast pork fried rice & choice of wonton, egg drop, or hot and sour soup OR 
+                an egg or spring roll. 
+                Avaliable Tuesdays - Saturdays 12:00 pm - 3:00 pm. (Sundays and Holidays Excluded.)
+            </p>
+            <h3>$12.50 Each</h3>
             <ul>
                 {luncheonSpecial.map((item) => (
                     <li key={item.name}>
