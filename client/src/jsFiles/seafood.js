@@ -44,7 +44,9 @@ export const seafood = [
       {
         name: "Shrimp with Black Bean Sauce",
         price: 19.50,
-        spice: null
+        spice: null,
+        gluten:false
+
       },
       {
         name: "Shrimp with Chili Sauce",

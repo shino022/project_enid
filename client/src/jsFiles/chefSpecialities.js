@@ -4,7 +4,7 @@ export const chefSpecialities = [
         price: 17,
         description: "Tender chicken chunks fried to a crisp & sautéed w rich garlic sauce.",
         spice: true,
-        gluten: false
+        gluten: true
     },
     {
         name: "Vegetable Home Style",

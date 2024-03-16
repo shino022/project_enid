@@ -1,6 +1,6 @@
 .menu_content {
     background-color: #f5f5f5;
-    padding-top: 3rem;
+    padding-top: 10rem;
     padding-bottom: 1rem;
     margin: 0;
 }
@@ -24,6 +24,7 @@
 .menu_content span {
     font-family: "Cormorant Upright", serif;
     font-weight: 500;
+    color: rgb(150, 43, 0);
     font-style: normal;
     font-size: 1.2rem;
 }
@@ -77,5 +78,31 @@ hr {
 }
 
 .end_line{
+    text-align: center;
+}
+
+.spicy_logo{
+    height: 1rem;
+    width: 1rem;
+}
+
+.gluten_free_logo{
+    height: 1rem;
+    width: 1rem;
+}
+
+.luncheon_special_description{
+    color: #808000;
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+}
+.luncheon_special_price{
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
     text-align: center;
 }
