@@ -136,7 +136,7 @@ hr {
     .luncheon_special{
         font-size: 4rem;
     }
-    .menu_content p{
+    .menu_content p:not(.end_line){
         font-size: 1.5rem;
     }
     .luncheon_special_price{
