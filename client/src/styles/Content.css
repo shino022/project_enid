@@ -29,48 +29,6 @@
     font-size: 1.2rem;
 }
 
-@media(min-width: 768px) {
-    .menu_content{
-        padding-top: 10rem;
-    }
-    .menu_content span {
-        font-size: 2rem;
-    }
-
-    .menu_content h4 {
-        font-size: 2rem;
-    }
-    .chefSpecialities,
-    .vegetables,
-    .appetizers,
-    .poultry,
-    .beef_and_lamb,
-    .seafood,
-    .pork,
-    .fried_rice_noodles_chow_mein,
-    .thai_specials,
-    .luncheon_special{
-        font-size: 4rem !important
-    }
-    .menu_content p{
-        font-size: 1.5rem !important;
-    }
-    .luncheon_special_price{
-        font-size: 2rem !important;
-    }
-    .spicy_logo {
-        margin-left: 0.5rem;
-        height: 0.8rem !important;
-        width: 1rem !important;
-    }
-}
-
-@media(min-width: 1200px) {
-    .menu_content span {
-        font-size: 2.5rem;
-    }
-}
-
 .menu_content ul {
     list-style: none;
     padding: 0;
@@ -121,6 +79,7 @@ hr {
 
 .end_line {
     text-align: center;
+    color: rgb(150, 43, 0);
 }
 
 .spicy_logo {
@@ -151,4 +110,47 @@ hr {
     font-style: normal;
     font-size: 1.2rem;
     text-align: center;
+    color: rgb(150, 43, 0)
+}
+
+@media(min-width: 768px) {
+    .menu_content{
+        padding-top: 10rem;
+    }
+    .menu_content span {
+        font-size: 2rem;
+    }
+
+    .menu_content h4 {
+        font-size: 2rem;
+    }
+    .chefSpecialities,
+    .vegetables,
+    .appetizers,
+    .poultry,
+    .beef_and_lamb,
+    .seafood,
+    .pork,
+    .fried_rice_noodles_chow_mein,
+    .thai_specials,
+    .luncheon_special{
+        font-size: 4rem;
+    }
+    .menu_content p{
+        font-size: 1.5rem;
+    }
+    .luncheon_special_price{
+        font-size: 2rem;
+    }
+    .spicy_logo {
+        margin-left: 0.5rem;
+        height: 0.8rem;
+        width: 1rem;
+    }
+}
+
+@media(min-width: 1200px) {
+    .menu_content span {
+        font-size: 2.5rem;
+    }
 }
