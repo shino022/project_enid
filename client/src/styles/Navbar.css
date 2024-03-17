@@ -25,11 +25,7 @@ body {
     font-size: 2rem;
 }
 
-@media (min-width: 768px){
-    .logo{
-        font-size: 3rem;
-    }
-}
+
 
 .hamburger {
     /* Styles for the hamburger icon */
@@ -82,3 +78,60 @@ body {
 
 }
 
+.menu_no_hamburger {
+    display: flex;
+    justify-content: space-between; /* This will create space between items */
+    align-items: center; /* If you want to vertically center the items */
+    width: auto; /* Allows the container to grow and shrink with content */
+    
+}
+
+.menu_no_hamburger>a {
+    text-decoration: none;
+    color: white;
+    font-family: "Cormorant Upright", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        font-size: 3rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .menu {
+        position: relative;
+        /* Or static, depending on your layout */
+        display: flex;
+        /* Or inline-flex, if you prefer */
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        /* Match the height of the navbar */
+    }
+
+    .menu a {
+        /* Style your menu links as needed for desktop layout */
+        padding: 0 1rem;
+        /* Example padding, adjust as necessary */
+        margin: 0;
+        /* Adjust margins as necessary */
+    }
+
+    .navbar {
+        height: 5rem;
+        /* Adjust the height as necessary */
+    }
+}
+
+@media (max-width: 768px) {
+    .menu_no_hamburger{
+        display: none;
+    }
+}

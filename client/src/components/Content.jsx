@@ -120,7 +120,7 @@ function Content(){
                     </li>
                 ))}
             </ul>
-            <p className='end_line'>* * * * * * * * * * * * *</p>
+            <p className='end_line'>* * *</p>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 .menu_content {
     background-color: #f5f5f5;
-    padding-top: 8rem;
+    padding-top: 7rem;
     padding-bottom: 1rem;
     margin: 0;
 }
@@ -57,6 +57,11 @@
     }
     .luncheon_special_price{
         font-size: 2rem !important;
+    }
+    .spicy_logo {
+        margin-left: 0.5rem;
+        height: 0.8rem !important;
+        width: 1rem !important;
     }
 }
 
@@ -119,8 +124,9 @@ hr {
 }
 
 .spicy_logo {
-    height: 1rem;
-    width: 1.2rem;
+    margin-left: 0.5rem;
+    height: 0.6rem;
+    width: 0.8rem;
 }
 
 .gluten_free_logo {

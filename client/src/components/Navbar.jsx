@@ -20,6 +20,10 @@ function Navbar() {
     return (
         <header className="navbar">
             <h1 className="logo">Seven Woks 高朋飯店</h1>
+            <div className="menu_no_hamburger">
+                <a href="#" onClick={handleMenuClick}>MENU</a>
+                <a href="#" onClick={handleContactClick}>CONTACT</a>
+            </div>
             <button className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={(e) => {
                 console.log('Toggling menu:', isMenuOpen);
                 setIsMenuOpen(!isMenuOpen);
@@ -31,8 +35,8 @@ function Navbar() {
             </button>
             {isMenuOpen && (
                 <div className="menu">
-                    <a href="#" onClick={handleContactClick}>CONTACT</a>
                     <a href="#" onClick={handleMenuClick}>MENU</a>
+                    <a href="#" onClick={handleContactClick}>CONTACT</a>                    
                 </div>
             )}
         </header>
