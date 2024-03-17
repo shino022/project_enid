@@ -96,6 +96,10 @@ body {
     margin-right: 0.5rem;
 }
 
+.menu_no_hamburger >a:first-child{
+    margin-right: 1rem;
+}
+
 @media (min-width: 768px) {
     .logo {
         font-size: 3rem;
