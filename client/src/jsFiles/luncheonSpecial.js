@@ -17,11 +17,13 @@ export const luncheonSpecial = [
       },
       {
         name: "Lo Mein",
-        spice: null
+        spice: null,
+        choice: "Pork, Chicken, Beef, Vegetable or Shrimp"
       },
       {
         name: "Chow Mein",
-        spice: null
+        spice: null,
+        choice: "Pork, Chicken, Beef, Vegetable or Shrimp"
       },
       {
         name: "Sliced Chicken with Broccoli",

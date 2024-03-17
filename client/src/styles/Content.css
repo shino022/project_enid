@@ -1,45 +1,44 @@
 .menu_content {
-    background-color: #f5f5f5;
-    padding-top: 7rem;
-    padding-bottom: 1rem;
-    margin: 0;
+  background-color: #f5f5f5;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  margin: 0;
 }
 
 .menu_content h4 {
-    color: goldenrod;
-    font-family: "Cormorant Upright", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.2rem;
+  color: goldenrod;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.2rem;
 }
 
 .menu_content p:not(.end_line) {
-    color: #808000;
-    font-family: "Cormorant Upright", serif;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 1rem;
+  color: #808000;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1rem;
 }
 
 .menu_content span {
-    font-family: "Cormorant Upright", serif;
-    font-weight: 500;
-    color: rgb(150, 43, 0);
-    font-style: normal;
-    font-size: 1.2rem;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 500;
+  color: rgb(150, 43, 0);
+  font-style: normal;
+  font-size: 1.2rem;
 }
 
 .menu_content ul {
-    list-style: none;
-    padding: 0;
-    margin: 0
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .menu_content li {
-
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
 }
 
 .vegetables,
@@ -51,106 +50,114 @@
 .fried_rice_noodles_chow_mein,
 .thai_specials,
 .luncheon_special {
-    color: #B67350;
-    text-align: center;
-    font-family: "Great Vibes", cursive;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2rem;
-    margin-top: 2rem;
+  color: #b67350;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
 .chefSpecialities {
-    color: #B67350;
-    text-align: center;
-    font-family: "Great Vibes", cursive;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2rem;
-    margin: 0;
+  color: #b67350;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  margin: 0;
 }
 
 hr {
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    width: 75%;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  width: 75%;
 }
 
 .end_line {
-    text-align: center;
-    color: rgb(150, 43, 0);
+  text-align: center;
+  color: rgb(150, 43, 0);
 }
 
 .spicy_logo {
-    margin-left: 0.5rem;
-    height: 0.6rem;
-    width: 0.8rem;
+  margin-left: 0.5rem;
+  height: 0.6rem;
+  width: 0.8rem;
 }
 
 .gluten_free_logo {
-    height: 1rem;
-    width: 1rem;
+  height: 1rem;
+  width: 1rem;
 }
 
 .luncheon_special_description {
-    color: #808000;
-    font-family: "Cormorant Upright", serif;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 1rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
+  color: #808000;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .luncheon_special_price {
-    font-family: "Cormorant Upright", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.2rem;
-    text-align: center;
-    color: rgb(150, 43, 0)
+  font-family: "Cormorant Upright", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(150, 43, 0);
 }
 
-@media(min-width: 768px) {
-    .menu_content{
-        padding-top: 10rem;
-    }
-    .menu_content span {
-        font-size: 2rem;
-    }
-
-    .menu_content h4 {
-        font-size: 2rem;
-    }
-    .chefSpecialities,
-    .vegetables,
-    .appetizers,
-    .poultry,
-    .beef_and_lamb,
-    .seafood,
-    .pork,
-    .fried_rice_noodles_chow_mein,
-    .thai_specials,
-    .luncheon_special{
-        font-size: 4rem;
-    }
-    .menu_content p:not(.end_line){
-        font-size: 1.5rem;
-    }
-    .luncheon_special_price{
-        font-size: 2rem;
-    }
-    .spicy_logo {
-        margin-left: 0.5rem;
-        height: 0.8rem;
-        width: 1rem;
-    }
+#main_body > ul:nth-child(31) > li:nth-child(5) > p {
+    transform: translate(0px, -20px);
 }
 
-@media(min-width: 1200px) {
-    .menu_content span {
-        font-size: 2.5rem;
-    }
+#main_body > ul:nth-child(31) > li:nth-child(6) > p {
+    transform: translate(0px, -20px);
+}
+
+@media (min-width: 768px) {
+  .menu_content {
+    padding-top: 10rem;
+  }
+  .menu_content span {
+    font-size: 2rem;
+  }
+
+  .menu_content h4 {
+    font-size: 2rem;
+  }
+  .chefSpecialities,
+  .vegetables,
+  .appetizers,
+  .poultry,
+  .beef_and_lamb,
+  .seafood,
+  .pork,
+  .fried_rice_noodles_chow_mein,
+  .thai_specials,
+  .luncheon_special {
+    font-size: 4rem;
+  }
+  .menu_content p:not(.end_line) {
+    font-size: 1.5rem;
+  }
+  .luncheon_special_price {
+    font-size: 2rem;
+  }
+  .spicy_logo {
+    margin-left: 0.5rem;
+    height: 0.8rem;
+    width: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menu_content span {
+    font-size: 2.5rem;
+  }
 }

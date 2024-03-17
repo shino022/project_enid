@@ -92,6 +92,8 @@ function Content(){
                 {FriedRiceNoodlesChowMein.map((item) => (
                     <li key = {item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
+                        <p>{item.choice}</p>           
+                        
                         <span>${item.price}</span>
                     </li>
                 ))}
@@ -117,6 +119,7 @@ function Content(){
                 {luncheonSpecial.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>    
+                        <p>{item.choice}</p>           
                     </li>
                 ))}
             </ul>
