@@ -20,9 +20,8 @@ function Content(){
                 {chefSpecialities.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
-                        <p>{item.description}</p>           
-                                    
-                        <span>${item.price}</span>
+                        <p>{item.description}</p>  
+                        <span>${item.take_out_price}</span>
                     </li>
                 ))}
             </ul>
@@ -32,7 +31,7 @@ function Content(){
                 {appetizers.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
-                        <span>${item.price}</span>
+                        <span>${item.take_out_price}</span>
                     </li>
                 ))}
             </ul>
@@ -42,7 +41,7 @@ function Content(){
                 {poultry.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
-                        <span>${item.price}</span>
+                        <span>${item.take_out_price}</span>
                     </li>
                 ))}
             </ul>
@@ -52,7 +51,7 @@ function Content(){
                 {beefAndLamb.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
-                        <span>${item.price}</span>
+                        <span>${item.take_out_price}</span>
                     </li>
                 ))}
             </ul>
@@ -62,7 +61,7 @@ function Content(){
                 {seafood.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
-                        <span>${item.price}</span>
+                        <span>${item.take_out_price}</span>
                     </li>
                 ))}
             </ul>
@@ -72,7 +71,7 @@ function Content(){
                 {pork.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
-                        <span>${item.price}</span>
+                        <span>${item.take_out_price}</span>
                     </li>
                 ))}
             </ul>
@@ -82,7 +81,7 @@ function Content(){
                 {vegetables.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
-                        <span>${item.price}</span>
+                        <span>${item.take_out_price}</span>
                     </li>
                 ))}
             </ul>
@@ -92,7 +91,7 @@ function Content(){
                 {FriedRiceNoodlesChowMein.map((item) => (
                     <li key = {item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
-                        <span>${item.price}</span>
+                        <span>${item.take_out_price}</span>
                     </li>
                 ))}
             </ul>
@@ -102,7 +101,7 @@ function Content(){
                 {thaiSpecials.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
-                        <span>${item.price}</span>
+                        <span>${item.take_out_price}</span>
                     </li>
                 ))}
             </ul>
