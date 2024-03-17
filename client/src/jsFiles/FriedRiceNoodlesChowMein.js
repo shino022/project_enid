@@ -42,7 +42,7 @@ export const FriedRiceNoodlesChowMein = [
         name: "Pan Fried Noodles w. House Special",
         choice: null,
         dine_In_price: 18.50,
-        take_out_price: 1,
+        take_out_price: 10,
         spice: null,
         gluten: false
       },
