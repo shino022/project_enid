@@ -42,6 +42,7 @@
 }
 
 .vegetables,
+.soup,
 .appetizers,
 .poultry,
 .beef_and_lamb,
@@ -127,6 +128,7 @@ hr {
     font-size: 2rem;
   }
   .chefSpecialities,
+  .soup,
   .vegetables,
   .appetizers,
   .poultry,
