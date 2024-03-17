@@ -112,14 +112,6 @@ hr {
   color: rgb(150, 43, 0);
 }
 
-#main_body > ul:nth-child(31) > li:nth-child(5) > p {
-    transform: translate(0px, -20px);
-}
-
-#main_body > ul:nth-child(31) > li:nth-child(6) > p {
-    transform: translate(0px, -20px);
-}
-
 @media (min-width: 768px) {
   .menu_content {
     padding-top: 10rem;
