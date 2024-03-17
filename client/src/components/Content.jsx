@@ -11,6 +11,7 @@ import { thaiSpecials } from '../jsFiles/thaiSpecials';
 import { luncheonSpecial } from '../jsFiles/luncheonSpecial';
 import spiceLogo from '../assets/icons/spice.png';
 import glutenFreeLogo from '../assets/icons/glutenfree_2.png';
+import {soups} from '../jsFiles/soup';
 
 function Content(){
     return(
@@ -18,6 +19,17 @@ function Content(){
             <h3 className='chefSpecialities'>Chef Specialities</h3>
             <ul>
                 {chefSpecialities.map((item) => (
+                    <li key={item.name}>
+                        <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
+                        <p>{item.description}</p>  
+                        <span>${item.take_out_price}</span>
+                    </li>
+                ))}
+            </ul>
+            <hr />
+            <h3 className='soup'>Soups</h3>
+            <ul>
+                {soups.map((item) => (
                     <li key={item.name}>
                         <h4>{item.name}{item.spice && <img src={spiceLogo} alt='spicy' className='spicy_logo'/>} {item.gluten && <img src={glutenFreeLogo} alt='glutenfree' className='gluten_free_logo'/>}</h4>
                         <p>{item.description}</p>  
