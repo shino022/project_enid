@@ -19,7 +19,7 @@ function Navbar() {
 
     return (
         <header className="navbar">
-            <h1 className="logo">Seven Woks 高朋飯店</h1>
+            <h1 className="logo">Seven Woks 高朋</h1>
             <div className="menu_no_hamburger">
                 <a href="#" onClick={handleMenuClick}>MENU</a>
                 <a href="#" onClick={handleContactClick}>CONTACT</a>
